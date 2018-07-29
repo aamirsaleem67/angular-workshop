@@ -1,0 +1,41 @@
+<ul>
+    <li>Add a border with some background color through css file (in styleUrls)</li>
+</ul>
+<div class="box some-margin"></div>
+
+<br>
+<ul>
+    <li>Add an input field which updates a property ‘bookName’ via two-way binding</li>
+</ul>
+<input class="some-margin" type="text" name="bookInput" [(ngModel)]="bookName">
+
+<br>
+<br>
+<ul>
+    <li>Display this bookName in a paragraph via string interpolation</li>
+</ul>
+<p class="some-margin">Book Name Value: {{bookName}}</p>
+
+<br>
+<ul>
+    <li>Add background color as green on paragraph</li>
+</ul>
+<p class="green-background some-margin">Green Background</p>
+
+<br>
+<ul>
+    <li>Add a class with color as white on paragraph</li>
+</ul>
+<p class="green-background white-text some-margin">White text</p>
+
+<br>
+<ul>
+    <li>Add a button “Add Book” which gets enabled if name is not empty</li>
+</ul>
+<button [disabled]="!bookName" class="some-margin">Add book</button>
+
+<br>
+<ul>
+    <li>Upon clicking the button, sets the ‘bookName’ as empty string</li>
+</ul>
+<button (click)="clearBookName()" class="some-margin">Clear Book Name</button>

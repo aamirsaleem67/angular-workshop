@@ -1,0 +1,17 @@
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+}
+
+.green-background {
+    background-color: green;
+}
+
+.white-text {
+    color: white;
+}
+
+.some-margin {
+    margin-left: 40px;
+}
