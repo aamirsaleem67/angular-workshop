@@ -1,16 +1,16 @@
 # Installation
 
-Install [Node](https://nodejs.org/en/download/)
+- Install [Node](https://nodejs.org/en/download/)
 - Install [git](https://git-scm.com/)
 - Install [Angular-Cli](https://cli.angular.io/) by running the command `npm install -g @angular/cli` in terminal
 
 # Run the project
 
 Run the commands
-1 `git clone https://github.com/aamirubit/angular-workshop.git`
-1 `cd ng-girls`
-1 `npm install`
-1 `ng serve` and navigate to `http://localhost:4200/`
+1. `git clone https://github.com/aamirubit/angular-workshop.git`
+2. `cd ng-girls`
+3. `npm install`
+4. `ng serve` and navigate to `http://localhost:4200/`
 
 ## Development server
 
