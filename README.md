@@ -1,6 +1,16 @@
-# NgGirls
+# Installation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Install [Node](https://nodejs.org/en/download/)
+Install [git](https://git-scm.com/)
+Install [Angular-Cli](https://cli.angular.io/) by running the command `npm install -g @angular/cli` in terminal
+
+# Run the project
+
+Run the commands
+`git clone https://github.com/aamirubit/angular-workshop.git`
+`cd ng-girls`
+`npm install`
+`ng serve` and navigate to `http://localhost:4200/`
 
 ## Development server
 
@@ -10,17 +20,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
